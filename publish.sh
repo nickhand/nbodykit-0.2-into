@@ -1,7 +1,7 @@
 #!/bin/bash
 
 jupyter-nbconvert --to slides desi-lunch.ipynb --reveal-prefix=reveal.js
-mv slides.slides.html  index.html
+mv desi-lunch.slides.html  index.html
 mkdir -p /tmp/workspace
 cp -r * /tmp/workspace/
 git add -A .
